@@ -5,20 +5,19 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8H2K339H7"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-B8H2K339H7');
-</script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B8H2K339H7');
+    </script>
     <link rel="stylesheet" href="../css/index.css">
-     <title>calculator - Google Search</title>
+    <title>calculator - Google Search</title>
     <meta name="title" content="Szvy Central" />
     <meta name="description" content="Szvy Central is one of the best websites for people to play games online." />
     <meta name="keywords" content="unblocked games, unblocked, proxy, pr0xy, unbl0cked games, games, game, fnaf, minecraft, pr0xy, games unblocked, unbl0cked, fortnite, sizzle central, szvy central, szvy, szvy central games, savoy central, savoy, central games, savoy central games, unblocked gxmes, fun games, educational games, education, classroom6x, math games, unblocked games google sites, google sites, google sites unblocked games, html unblocked games, github unblocked games, school unblocked games, github games, school games, html games, free games, online games, coolfunscience, science games, math games, google sites, google sites games, games google sites, sitesgoogle games, games sitesgoogle, githubio games, github io games, szvy github games, szvycentral.pages.dev, szvycentral.netlify.app, szvycentral.vercel.app, tidym.vercel.app, subtoszvy, mathplayground, games unblocked, youtube unblocked, tiktok unblocked, youtube, tiktok, how to play unblocked games at school, games, online games, fortnite games unblocked, nowgg unblocked, nowgg alt links, nowgg, geforce now unblocked, geforcenow, geforce unblocked, geforcenow unblocked, geforce unblocked, play games, unblocked games for school, skibidi szvy">
     <meta name="theme-color" content="#0f0f0f">
     <meta name="msapplication-TileColor" content="#0f0f0f">
-    <meta property="image" content="/assets/logo.png">
+    <meta property="image" content="../assets/logo.png">
     <meta property="og:image" content="../assets/logo.png">
     <link rel="icon" type="image/x-icon" href="https://www.google.com/favicon.ico">
     <script src="../js/panic.js"></script>
@@ -26,6 +25,63 @@
     <script src="../js/usesettings.js"></script>
     <script src="/particles.js"></script>
     <script src="/app.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-container {
+            position: relative;
+            width: 212px;
+            height: 212px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid black;
+            transition: border-radius 0.3s ease-in-out;
+        }
+
+        .image-container:hover {
+            border-radius: 50px; /* Matches the hovered image border radius */
+        }
+
+        .image-container:hover img {
+            border-radius: 50px;
+        }
+
+        .popup {
+            border: 2px;
+            border-color: black;
+            width: 65%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(20%);
+            background: rgba(0, 0, 0, 0.7);
+            color: rgb(255, 255, 255);
+            font-family: notitle;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 50px;
+            opacity: 0;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .image-container:hover .popup {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+    </style>
 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -45,18 +101,12 @@
         <a href="/pages/ai.html"><i class="fa-solid fa-robot"></i></a>
         <a href="/pages/settings.html"><i class="fa-solid fa-gear"></i></a>
         <a href="/pages/extra.html"><i class="fas fa-plus"></i></a>
-        <a href="/extra/discord.html"><i class="fa-brands fa-discord"></i></a>
-</div>
+    </div>
 
-<h1 id="title">Credits</h1>
-<p class="smallahhtext"><a href="https://github.com/szvy">szvy</a> - the developer
-<p class="smallahhtext"><a href="https://frogiee.one">frogiee1</a> - helper
-<p class="smallahhtext"><a href="https://github.com/titaniumnetwork-dev/Ultraviolet">ultraviolet</a> - entire proxy backend
-<p class="smallahhtext"><a href="https://github.com/3kh0">3kh0</a> - a lot of games
-<p class="smallahhtext"><a href="https://gitlab.com/skysthelimit.dev/selenite">selenite</a> - a lot more games
-<p class="smallahhtext"><a href="https://ch3n.cc">red not sus</a> - iframe page
-<p class="smallahhtext"><a href="https://technonyte.pages.dev">technonyte</a> - search page
-
+    <h1 id="title">Credits</h1>
+    <div class="image-container">
+        <img src="/images/Sumen.JPEG" alt="Profile Image">
+        <div class="popup">Sumen</div>
+    </div>
 </body>
-
 </html>
