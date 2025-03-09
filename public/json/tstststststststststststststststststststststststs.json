@@ -5,29 +5,9 @@
       "alt": "30 dollar website"
     },
     {
-      "url": "/4ppz/android.html",
-      "img": "/assets/android.png",
-      "alt": "android"
-    },
-    {
-      "url": "/4ppz/aptoide.html",
-      "img": "/assets/aptoide.png",
-      "alt": "aptoide"
-    },
-    {
-      "url": "/4ppz/cai.html",
-      "img": "/assets/cai.png",
-      "alt": "c.ai"
-    },
-    {
       "url": "/4ppz/discord.html",
       "img": "/assets/discord.png",
       "alt": "discord"
-    },
-    {
-      "url": "/4ppz/freedns.html",
-      "img": "/assets/freedns.png",
-      "alt": "freedns"
     },
     {
       "url": "/4ppz/geforce.html",
@@ -100,19 +80,9 @@
         "alt": "twitter"
     },
     {
-        "url": "/4ppz/vscode.html",
-        "img": "/assets/vscode.png",
-        "alt": "visual studio code"
-    },
-    {
         "url": "/4ppz/whatsapp.html",
         "img": "/assets/whatsapp.png",
         "alt": "whatsapp"
-    },
-    {
-        "url": "/4ppz/win11.html",
-        "img": "/assets/win11.png",
-        "alt": "windows 11"
     },
     {
         "url": "/4ppz/xbox.html",
