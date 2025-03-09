@@ -15,19 +15,23 @@ body {
 }
 
 .chat-wrapper {
+    padding: 50px;
+    max-height: 100vh;
     width: 700px;
-    background-color: #250307;
+    background-color: #1d6925;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 header {
     display: flex;
     align-items: center;
     padding: 15px;
-    border-bottom: 1px solid #42060d;
+    border-bottom: 2px solid #135718;
 }
 
 .profile-pic {
@@ -35,6 +39,7 @@ header {
     height: 50px;
     border-radius: 50%;
     margin-right: 15px;
+    border: 4px solid #032506;
 }
 
 .header-info h1 {
@@ -44,7 +49,7 @@ header {
 
 .status {
     font-size: 0.9em;
-    color: #aaa;
+    color: #cecece;
 }
 
 .author {
@@ -54,7 +59,7 @@ header {
 
 #chat-container {
     padding: 20px;
-    height: 600px;
+    height: 70vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -71,7 +76,7 @@ header {
 
 .message.user {
     align-self: flex-end;
-    background-color: #250307;
+    background-color: #b39fa1;
     color: #fff;
     border-radius: 15px 15px 0 15px;
 }
@@ -90,15 +95,14 @@ header {
 .input-area {
     display: flex;
     align-items: center;
-    padding: 15px;
-    border-top: 1px solid #42060d;
-    background-color: #250307;
+    padding: 0px;
+    background-color: #1d6925;
     font-family: 'Poppins', sans-serif;
 }
 
 #user-input {
     flex: 1;
-    background-color: #611921;
+    background-color: #032506;
     color: #f0f0f0;
     border: none;
     border-radius: 8px;
@@ -110,12 +114,18 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+#user-input:hover {
+    outline: none;
+    box-shadow: 0 0 5px #37db47, 0 0 10px #37db47, 0 0 30px #37db47;
+    transition: all .2s ease-in-out; 
+}
+
 #user-input::placeholder {
     color: #888;
 }
 
 #send-button {
-    background-color: #611921;
+    background-color: #032506;
     color: #f0f0f0;
     border: none;
     padding: 10px 15px;
@@ -126,7 +136,7 @@ header {
 }
 
 #send-button:hover {
-    background-color: #801f2b;
+    background-color: #124117;
 }
 
 pre {
