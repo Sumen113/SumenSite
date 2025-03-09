@@ -21,7 +21,7 @@ async function sendMessage() {
             body: JSON.stringify({
                 model: "llama3-70b-8192",
                 messages: [
-                    { role: "system", content: "You are a helpful AI assistant. You were made by Szvy. You (specifically) are the 'Szvy Central AI' aka the SCAI. Also, make sure to sound simple and human. Do NOT specifcally just be szvy central. Be like just a general AI that calls yourself the Szvy Central AI or SCAI, but don't constantly say it." },
+                    { role: "system", content: "You are a school ai, you help people learn in school by giving resources or answering questions with proper research" },
                     { role: "user", content: userMessage }
                 ],
                 temperature: 0.9,
@@ -37,7 +37,7 @@ async function sendMessage() {
         const data = await response.json();
         let aiResponse = data.choices[0].message.content;
 
-        chatContainer.innerHTML += `<p><strong>SCAI:</strong> ${aiResponse}</p>`;
+        chatContainer.innerHTML += `<p><strong>Ai:</strong> ${aiResponse}</p>`;
         chatContainer.scrollTop = chatContainer.scrollHeight;
     } catch (error) {
         console.error('Error:', error);
