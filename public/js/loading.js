@@ -3,25 +3,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const h1Element = document.getElementById('ld');
 
     const headings = [
-        "frogies arcade sucks, fight me frogiee1",
-        "new szvy central update when carti drops",
-        "remember to follow the tiktok @szvy.central",
-        "booyah!",
-        "szvy.lol ay 🗣️🗣️🔥🔥",
-        "doesnt steal your data",
-        "contains no sugar!",
-        "the fog is coming, august 31st 2026",
-        "goonicide before gta 6 is wild 😭🙏",
-        "i cant put down the netcup, i cant put down the netcup",
-        "can we all agree to start dabbing again in 2025? DATTEBYO!",
-        "ts ste lwk pmo ngl lke icl ts ste is so bns ddss nt gnna us ts",
-        "BOIII THIS SITE SO FRIGGIN TOUGH 🤣🫱",
-        "instead of handing them a freaking packet, yo",
-        "808 = essentially a crashout",
-        "geeked vs locked in",
-        "\"if gravity can pull an apple, then you can pull a bad bih too\". - isacc newton",
-        "best website for the unemployed",
-        "szby low taper fading"
+        "Shoutout to QHPS",
+        "I made this website in a week😭😭",
+        "SumenSite🔥🔥",
+        "Contains no cringe",
+        "Go to settings and set a panic mode, trust me",
+        "Griddy while loading",
+        "Agree to anly share the website with the best",
+        "Sumen is the GOAT",
+        "Sumen is the GOAT",
+        "Sumen is the GOAT",
+        "Sumen is the GOAT",
+        "Lock in, make sure there's no teachers",
+        "If balloons go up ur grades can too",
+        "You better have done ur home work",
+        "I swear if there's a snitch"
     ];
 
     if (loadingScreen) {
@@ -43,15 +39,3 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('loading screen not found?????');
     }
 });
-
-console.log(`
-    /$$$$$$$ /$$$$$$$$ /$$    /$$ /$$   /$$
-   /$$_____/|____ /$$/|  $$  /$$/| $$  | $$
-  |  $$$$$$    /$$$$/  \\  $$/$$/ | $$  | $$
-   \\____  $$  /$$__/    \\  $$$/  | $$  | $$
-   /$$$$$$$/ /$$$$$$$$   \\  $/   |  $$$$$$$
-  |_______/ |________/    \\_/     \\____  $$
-                                  /$$  | $$
-                                 |  $$$$$$/
-                                  \\______/
-  `);
