@@ -1,7 +1,6 @@
 #gameframe {
     margin-top: 5vw;
     margin-bottom: 6vw;
-    margin-right: 23vw;
     display: flex;
     color: white;
     font-family: title;
@@ -12,8 +11,8 @@
     margin: auto;
     outline: 0.2vw solid #ffffff26;
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.24);
-    width: 72.5vw;
-    height: 38.5vw;
+    width: 90vw;
+    height: 37.9vw;
     background-color: #ffffff26;
     border-radius: 0.5vw;
     overflow: hidden;
@@ -21,7 +20,7 @@
 
 #gameframe .game {
     margin: auto;
-    width: 72.5vw;
+    width: 90vw;
     height: 34vw;
     background-color: #ffffff26;
     background-repeat: no-repeat;
@@ -29,8 +28,8 @@
 }
 
 #gameframe .game iframe {
-    width: 72.6vw;
-    height: 34.1vw;
+    width: 90vw;
+    height: 34vw;
     border: 0;
 }
 
@@ -56,18 +55,7 @@
     justify-content: flex-end;
 }
 
-.addisplay {
-    margin-left: 80vw;
-    width: 16vw;
-    height: 32vw;
-    background-color: #3d4756;
-    border-radius: 0.5vw;
-    display: flex;
-    margin-top: -42.5vw;
-    margin-bottom: -5vw;
-    outline: 0.2vw solid #ffffff26;
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.24);
-}
+
 
 .gameicon {
     margin-left: 0.6vw;
@@ -112,18 +100,6 @@
     margin-top: 2vw;
 }
 
-.adtext {
-    font-size: 0.5vw;
-    text-transform: uppercase;
-    text-align: center;
-    opacity: 0.7;
-    letter-spacing: 0.05vw;
-    position: absolute;
-    right: 15vw;
-    padding-top: 10px;
-    margin-top: 32.2vw;
-    transform-origin: right center;
-}
 
 #gameframe .options .left,
 #gameframe .options .right {
@@ -152,7 +128,7 @@
 }
 
 .fullscreenbtn:hover {
-    transform: scaleX(1.2) scaleY(1.2) rotate(-10deg);
+    transform: scaleX(1.2) scaleY(1.2) rotate(10deg);
 }
 
 .reloadbtn {
@@ -164,123 +140,6 @@
 .reloadbtn:hover {
     transform: scaleX(1.2) scaleY(1.2) rotate(360deg);
 }
-
-.addisplay {
-    margin-left: 80vw;
-    width: 160px;
-    height: 600px;
-    background-color: #272727;
-    border-radius: 0.5vw;
-    display: flex;
-    margin-top: -42.5vw;
-    margin-bottom: 6vw;
-    outline: 0.2vw solid #ffffff26;
-    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.24);
-    position: relative;
-    left: 50px;
-}
-
-.addisplay .adtext {
-    font-size: 0.5vw;
-    text-transform: uppercase;
-    text-align: center;
-    opacity: 0.7;
-    letter-spacing: 0.05vw;
-    position: absolute;
-    right: 2vw;
-    padding-top: 10px;
-    margin-top: 32.2vw;
-    transform-origin: right center;
-    color: white;
-    font-family: notitle;
-}
-
-.bottom-addisplay {
-    width: 90%;
-    max-width: 728px;
-    height: auto;
-    aspect-ratio: 728 / 90;
-    background-color: #272727;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    outline: 2px solid #ffffff26;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 30px;
-}
-
-.bottom-addisplay .adtext {
-    font-size: min(12px, 2vw);
-    text-transform: uppercase;
-    text-align: center;
-    opacity: 0.7;
-    letter-spacing: 0.05em;
-    position: absolute;
-    bottom: -15px;
-    width: 100%;
-    color: white;
-    font-family: notitle;
-}
-
-
-@media screen and (max-width: 1024px) {
-    #gameframe .gameDisplay .game .options {
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    #gameframe {
-        flex-direction: column;
-        margin-right: 0;
-        margin-top: 100px;
-        margin-right: 200px;
-        font-size: 2.5vw;
-    }
-
-    #gameframe .gameDisplay {
-        width: 80vw;
-        height: auto;
-        font-size: 2.5vw;
-    }
-
-    #gameframe .game {
-        width: 100%;
-        height: 60vh;
-        font-size: 2.5vw;
-    }
-
-    #gameframe .game iframe {
-        width: 100%;
-        height: 60vh;
-        font-size: 2.5vw;
-    }
-
-    #gameframe .options {
-        height: auto;
-        font-size: 2.5vw;
-    }
-    
-    .addisplay {
-        margin-top: -55vw;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    .bottom-addisplay {
-        bottom: 180px;
-    }
-
-    .bottom-addisplay .adtext {
-        font-size: 10px;
-    }
-}
-
 
 @font-face {
     font-family: notitle;
