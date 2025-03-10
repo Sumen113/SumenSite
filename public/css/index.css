@@ -357,7 +357,7 @@ label[for="faviconDropdown"] {
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
-  z-index: 9998;
+  z-index: 9999;
   border-bottom-left-radius: 17px;
   border-bottom-right-radius: 17px;
   font-family: 'notitle';
@@ -422,7 +422,7 @@ label[for="faviconDropdown"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 9999;
+  z-index: 1001;
   opacity: 1;
   visibility: visible;
   transition: opacity 0.5s ease, visibility 0.5s ease;
